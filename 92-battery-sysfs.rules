@@ -1,0 +1,1 @@
+SUBSYSTEM=="power_supply", KERNEL=="rt9467-i2c", ATTR{type}=="Mains" RUN+="/usr/local/bin/change_i2c_permissions.sh"
